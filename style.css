@@ -1,0 +1,39 @@
+.heading {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  word-spacing: 2px;
+  letter-spacing: 1.4px;
+  font-size: 50px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.firstDiv,
+.secondDiv,
+.thirdDiv,
+.fourthDiv {
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.red,
+.yellow,
+.green {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
